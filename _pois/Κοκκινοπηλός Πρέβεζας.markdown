@@ -1,0 +1,7 @@
+---
+layout: poi
+wikidatum: Q12879219
+title:  Κοκκινοπηλός Πρέβεζας
+---
+
+Sample text
