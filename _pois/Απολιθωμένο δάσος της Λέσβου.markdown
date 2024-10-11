@@ -1,0 +1,7 @@
+---
+layout: poi
+wikidatum: Q2910024
+title:  Απολιθωμένο δάσος της Λέσβου
+---
+
+Sample text  
