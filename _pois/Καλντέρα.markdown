@@ -2,7 +2,7 @@
 layout: poi
 wikidatum: Q2071883
 title:  Καλντέρα
-image: assets/images/Santorini.jpg
+image: assets/images/caldera.jpg
 ---
 
 Sample text  
