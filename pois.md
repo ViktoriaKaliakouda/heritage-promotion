@@ -5,20 +5,20 @@ permalink: /pois/
 
 ---
 <div class="geological-monuments-container">
-  <div class="geological-monument-card">
+  <a href="URL_ΜΝΗΜΕΙΟΥ_1" class="geological-monument-card">
     <img src="assets/images/Lake_cave_σπηλαιο_λιμνων.JPG" alt="Σπήλαιο Λιμνών">
     <div class="card-content">
       <h3>Σπήλαιο Λιμνών</h3>
       <p>Μια σύντομη περιγραφή του μνημείου. Μπορείς να προσθέσεις περισσότερες λεπτομέρειες για να τραβήξεις το ενδιαφέρον του επισκέπτη.</p>
     </div>
-  </div>
-  <div class="geological-monument-card">
+  </a>
+  <a href="URL_ΜΝΗΜΕΙΟΥ_2" class="geological-monument-card">
     <img src="URL_ΕΙΚΟΝΑΣ_2" alt="Όνομα Μνημείου 2">
     <div class="card-content">
       <h3>Όνομα Μνημείου 2</h3>
       <p>Περιγραφή για το μνημείο, με έναν πιο απαλό και διακριτικό τρόπο.</p>
     </div>
-  </div>
+  </a>
 </div>
 <style>
 .geological-monuments-container {
