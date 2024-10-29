@@ -2,7 +2,7 @@
 layout: poi
 wikidatum: Q1128366
 title:  Φαράγγι της Σαμαριάς
-image: assets/images/Samaria.jpg
+image: assets/images/samaria2.jpg
 ---
 
 Sample text  
