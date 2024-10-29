@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Γεωλογικά Σημεία
+title: Γεωλογικά Μνημεία
 permalink: /pois/
 
 ---
