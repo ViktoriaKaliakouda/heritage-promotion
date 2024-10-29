@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-
+background: '/assets/images/drakolimni2.jpg'
 ---
 <div class="banner">
   <div class="banner-content">
@@ -20,7 +20,7 @@ layout: home
   color: white;
   text-align: center;
   padding: 100px 20px;
-  width: 120vh; /* Καλύπτει όλο το ύψος του παραθύρου */
+  width: 120vh; /
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@ layout: home
 .banner-content {
   max-width: 800px;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.3); /* Μαύρο ημιδιαφανές για καλύτερη ανάγνωση */
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 20px;
   border-radius: 8px;
 }
