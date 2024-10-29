@@ -4,21 +4,18 @@ title: Γεωλογικά Μνημεία
 permalink: /pois/
 
 ---
-<div class="geological-monuments-container">
-  <a href="URL_ΜΝΗΜΕΙΟΥ_1" class="geological-monument-card">
-    <img src="assets/images/Lake_cave_σπηλαιο_λιμνων.JPG" alt="Σπήλαιο Λιμνών">
-    <div class="card-content">
-      <h3>Σπήλαιο Λιμνών</h3>
-      <p>Μια σύντομη περιγραφή του μνημείου. Μπορείς να προσθέσεις περισσότερες λεπτομέρειες για να τραβήξεις το ενδιαφέρον του επισκέπτη.</p>
+<div class="images-list">
+  {% for p in site.pois %}
+    <div class="images-item">
+      <a href="{{ p.url | relative_url }}">
+        <!-- Εικόνα της λίμνης -->
+        <img src="{{ p.image | relative_url }}" alt="{{ p.title }}" style="width:100%; max-width: 300px; border-radius: 10px;"/>
+        <!-- Τίτλος και περιγραφή της λίμνης -->
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.description }}</p>
+      </a>
     </div>
-  </a>
-  <a href="URL_ΜΝΗΜΕΙΟΥ_2" class="geological-monument-card">
-    <img src="URL_ΕΙΚΟΝΑΣ_2" alt="Όνομα Μνημείου 2">
-    <div class="card-content">
-      <h3>Όνομα Μνημείου 2</h3>
-      <p>Περιγραφή για το μνημείο, με έναν πιο απαλό και διακριτικό τρόπο.</p>
-    </div>
-  </a>
+  {% endfor %}
 </div>
 <style>
 .geological-monuments-container {
