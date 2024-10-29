@@ -4,3 +4,5 @@
 
 layout: home
 ---
+layout: home
+background: '/assets/images/caldera.jpg'
