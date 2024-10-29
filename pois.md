@@ -21,23 +21,28 @@ permalink: /pois/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .poi-box {
-  background-color: #F0FFFF;
-  border: 1px solid #ccc;
-  border-radius: 8px; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  margin: 10px; 
-  padding: 15px; 
-  width: 30%; 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  width: 250px;
+  margin: 20px;
+  text-align: center;
 }
 
-.poi-box:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+.poi-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
+.poi-box h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.poi-box p {
+  font-size: 14px;
+  color: #666;
+}
 </style>
