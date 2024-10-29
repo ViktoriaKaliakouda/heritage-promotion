@@ -1,0 +1,7 @@
+---
+layout: poi
+wikidatum: Q109942739
+title:  Κολυμπήθρες στο Πάπιγκο
+---
+
+Sample text  
