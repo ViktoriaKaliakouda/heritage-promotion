@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-background: '/assets/images/drakolimni2.jpg'
 ---
 <div class="banner">
   <div class="banner-content">
