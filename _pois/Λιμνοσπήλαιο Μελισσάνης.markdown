@@ -2,6 +2,7 @@
 layout: poi
 wikidatum: Q1573013
 title:  Λιμνοσπήλαιο Μελισσάνης
+assets/images/Melissani.jpg
 ---
 
 Sample text 
