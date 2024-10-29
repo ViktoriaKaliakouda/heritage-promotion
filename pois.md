@@ -4,16 +4,14 @@ title: Γεωλογικά Μνημεία
 permalink: /pois/
 
 ---
-<div class="images-list">
+<div class="pois-container">
   {% for p in site.pois %}
-    <div class="images-item">
+    <div class="poi-box">
       <a href="{{ p.url | relative_url }}">
-        <!-- Εικόνα της λίμνης -->
-        <img src="{{ p.image | relative_url }}" alt="{{ p.title }}" style="width:100%; max-width: 300px; border-radius: 10px;"/>
-        <!-- Τίτλος και περιγραφή της λίμνης -->
-        <h3>{{ p.title }}</h3>
-        <p>{{ p.description }}</p>
+        <img src="/heritage-promotion/{{ p.image }}"/>
       </a>
+      <h3>{{ p.title }}</h3>
+        <p>{{ p.description }}</p>
     </div>
   {% endfor %}
 </div>
