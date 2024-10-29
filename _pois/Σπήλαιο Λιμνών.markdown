@@ -2,6 +2,7 @@
 layout: poi
 wikidatum: Q16328676
 title:  Σπήλαιο Λιμνών
+image: assets/images/Lake_cave_σπηλαιο_λιμνων.JPG
 ---
 
 Sample text  
