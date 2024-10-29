@@ -20,7 +20,12 @@ layout: home
   color: white;
   text-align: center;
   padding: 100px 20px;
+  width: 150vh; /* Καλύπτει όλο το ύψος του παραθύρου */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .banner-content {
   max-width: 800px;
