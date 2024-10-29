@@ -25,7 +25,7 @@ layout: home
 .banner-content {
   max-width: 800px;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.6); /* Μαύρο ημιδιαφανές για καλύτερη ανάγνωση */
+  background-color: rgba(0, 0, 0, 0.3); /* Μαύρο ημιδιαφανές για καλύτερη ανάγνωση */
   padding: 20px;
   border-radius: 8px;
 }
