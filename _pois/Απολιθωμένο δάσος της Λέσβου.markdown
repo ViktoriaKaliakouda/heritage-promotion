@@ -2,7 +2,7 @@
 layout: poi
 wikidatum: Q2910024
 title:  Απολιθωμένο δάσος της Λέσβου
-image: assets/images/apolithomeno.jpg
+image: assets/images/apolithomeno2.jpg
 ---
 
 Sample text  
