@@ -2,11 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+title: Γεωλογικά Μνημεία
 <div class="banner">
   <div class="banner-content">
-    <h1>Movie Map</h1>
-    <p>Ταξίδεψε σε εμβληματικές τοποθεσίες όπου γυρίστηκαν οι αγαπημένες σου κινηματογραφικές παραγωγές. Από τις γραφικές πόλεις και τα εξωτικά νησιά, μέχρι τις επικές σκηνές δράσης και τα ρομαντικά τοπία, ζήσε την εμπειρία να βρεθείς εκεί που ο κινηματογράφος έγινε πραγματικότητα. Ετοιμάσου να ανακαλύψεις τον κόσμο μέσα από το βλέμμα του φακού!</p>
+    <h1>Γεωλογικά Μνημεία</h1>
+    <p>Ανακαλύψτε τα 10 πιο δημοφιλή γεωλογικά μνημεία της Ελλάδας!</p>
   </div>
 </div>
 
