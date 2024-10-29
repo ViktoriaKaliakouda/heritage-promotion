@@ -5,7 +5,40 @@
 layout: home
 
 ---
+<div class="banner">
+  <div class="banner-content">
+    <h1>Γεωλογικά Μνημεία</h1>
+    <p>Ανακαλύψτε τα πιο δημοφιλή γεωλογικά μνημεία της Ελλάδας!</p>
+  </div>
+</div>
 
-    <h1>Ανακαλύψτε τα 10 πιο δημοφιλή γεωλογικά μνημεία της Ελλάδας!</h1>
+<style>
+.banner {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/82/%CE%97_%CE%B4%CF%81%CE%B1%CE%BA%CF%8C%CE%BB%CE%B9%CE%BC%CE%BD%CE%B7_%CF%84%CE%B7%CF%82_%CE%A4%CF%8D%CE%BC%CF%86%CE%B7%CF%82.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner-content {
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6); /* Μαύρο ημιδιαφανές για καλύτερη ανάγνωση */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 18px;
+}
+</style>
+    <h1> background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/82/%CE%97_%CE%B4%CF%81%CE%B1%CE%BA%CF%8C%CE%BB%CE%B9%CE%BC%CE%BD%CE%B7_%CF%84%CE%B7%CF%82_%CE%A4%CF%8D%CE%BC%CF%86%CE%B7%CF%82.jpg") Ανακαλύψτε τα 10 πιο δημοφιλή γεωλογικά μνημεία της Ελλάδας!</h1>
     <p>Περιηγηθείτε στον ιστότοπο και ταξιδέψτε διαδικτυακά στα μαγευτικά μνημεία της Ελλάδας. Μέσα από τον ιστότοπο μπορείτε να βρείτε χρήσιμες πληροφορίες για τα μνημεία αλλά και δραστηριότητες που οργανώνονται σε αυτά </p>
  
