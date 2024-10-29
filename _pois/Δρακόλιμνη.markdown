@@ -2,7 +2,7 @@
 layout: poi
 wikidatum: Q2615364
 title:  Δρακόλιμνη
-image: assets/images/Δρακολίμνη_Τύμφης.jpg
+image: assets/images/drakolimni2.jpg
 ---
 
 Sample text  
