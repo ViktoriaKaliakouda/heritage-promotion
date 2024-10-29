@@ -8,7 +8,7 @@ permalink: /pois/
   {% for p in site.pois %}
     <div class="poi-box">
       <a href="{{ p.url | relative_url }}">
-        <img src="/heritage-promotion/{{ p.image }}"/>
+        <img src="{{ '/assets/images/' | relative_url }}{{ p.image }}" alt="{{ p.title }}"/>
       </a>
       <h3>{{ p.title }}</h3>
         <p>{{ p.description }}</p>
