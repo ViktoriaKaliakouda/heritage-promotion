@@ -26,7 +26,7 @@ github_username:  ViktoriaKaliakouda & leftgeo
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: architect
 plugins:
   - jekyll-feed
 
