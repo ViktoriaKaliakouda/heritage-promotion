@@ -5,13 +5,13 @@ permalink: /pois/
 
 ---
 <div class="pois-container">
-  {% for p in site.data.pois %}
+  {% for p in site.pois %}
     <div class="poi-box">
       <a href="{{ p.url | relative_url }}">
-        <img src="{{ '/assets/images/' | relative_url }}{{ p.image }}" alt="{{ p.title }}"/>
+        <img src="/heritage-promotion/{{ p.image }}"/>
       </a>
       <h3>{{ p.title }}</h3>
-      <p>{{ p.description }}</p>
+        <p>{{ p.description }}</p>
     </div>
   {% endfor %}
 </div>
@@ -21,28 +21,23 @@ permalink: /pois/
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 20px;
+  padding: 20px; 
 }
 
 .poi-box {
-  width: 250px;
-  margin: 20px;
-  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px; 
+  padding: 15px; 
+  width: 30%; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-.poi-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
+.poi-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.poi-box h3 {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.poi-box p {
-  font-size: 14px;
-  color: #666;
-}
 </style>
