@@ -2,6 +2,7 @@
 layout: poi
 wikidatum: Q109942739
 title:  Κολυμπήθρες στο Πάπιγκο
+image: assets/images/Κολυμπήθρες_Πάπιγκο.jpg
 ---
 
 Sample text  
