@@ -20,7 +20,7 @@ layout: home
   color: white;
   text-align: center;
   padding: 100px 20px;
-  width: 100vh; /* Καλύπτει όλο το ύψος του παραθύρου */
+  width: 120vh; /* Καλύπτει όλο το ύψος του παραθύρου */
   display: flex;
   align-items: center;
   justify-content: center;
