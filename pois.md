@@ -5,13 +5,13 @@ permalink: /pois/
 
 ---
 <div class="pois-container">
-  {% for p in site.pois %}
+  {% for p in site.data.pois %}
     <div class="poi-box">
       <a href="{{ p.url | relative_url }}">
         <img src="{{ '/assets/images/' | relative_url }}{{ p.image }}" alt="{{ p.title }}"/>
       </a>
       <h3>{{ p.title }}</h3>
-        <p>{{ p.description }}</p>
+      <p>{{ p.description }}</p>
     </div>
   {% endfor %}
 </div>
