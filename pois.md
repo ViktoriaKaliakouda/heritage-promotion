@@ -20,6 +20,7 @@ permalink: /pois/
     </div>
   </div>
 </div>
+<style>
 .geological-monuments-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -62,3 +63,4 @@ permalink: /pois/
   font-size: 14px;
   line-height: 1.6;
 }
+</style>
