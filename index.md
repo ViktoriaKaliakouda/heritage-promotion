@@ -15,7 +15,7 @@
   color: white;
   text-align: center;
   padding: 120px 20px;
-  width: 100vh;
+  
   display: flex;
   align-items: center;
   justify-content: center;
