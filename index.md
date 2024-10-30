@@ -19,7 +19,7 @@ layout: home
   color: white;
   text-align: center;
   padding: 100px 20px;
-  width: 120vh; /
+  width: 100vh; /
   display: flex;
   align-items: center;
   justify-content: center;
