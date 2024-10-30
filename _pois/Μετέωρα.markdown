@@ -1,0 +1,8 @@
+---
+layout: poi
+wikidatum: Q3125051
+title:  Μετέωρα
+image: assets/images/METEORA.jpg
+---
+
+Sample text 
