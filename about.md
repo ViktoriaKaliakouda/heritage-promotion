@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Σχετικά
+title: Σχετικά με εμάς
 permalink: /about/
 ---
 
