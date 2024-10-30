@@ -4,43 +4,25 @@ title: Σχετικά με εμάς
 permalink: /about/
 ---
 
-<div class="banner">
-  <div class="banner-content">
-    <h1>Σχετικά με εμάς</h1>
-  </div>
+<div class="about"> 			
+	<div class="about-section">
+     <p> Ο ιστόχωρος αυτός δημιουργήθηκε από τον Λευτέρη Γεωργουλά και την Βικτώρια Καλιακούδα στα πλαίσια εργασίας του μαθήματος ΕΡΓΑΛΕΙΑ ΠΡΟΒΟΛΗΣ ΤΟΥΡΙΣΤΙΚΟΥ ΚΑΙ ΠΟΛΙΤΙΣΤΙΚΟΥ ΠΡΟΪΟΝΤΟΣ του ΠΜΣ Ψηφιακές Εφαρμογές και Καινοτομία του Ιονίου Πανεπιστημίου. Σκοπός του ιστοχώρου είναι η ανακάλυψη και η προβολή των 10 πιο σημαντικών γεωλογικών μνημείων της Ελλάδας. Μέσω του ιστοχώρου μας θέλουμε να φέρουμε πιο κοντά στους ανθρώπους στην γεωλογική κληρονομιά της Ελλάδας. </p>
+</div>
 </div>
 
 <style>
-.banner {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/82/%CE%97_%CE%B4%CF%81%CE%B1%CE%BA%CF%8C%CE%BB%CE%B9%CE%BC%CE%BD%CE%B7_%CF%84%CE%B7%CF%82_%CE%A4%CF%8D%CE%BC%CF%86%CE%B7%CF%82.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
+  .about-section {
+  padding: 60px 20px;
   text-align: center;
-  padding: 120px 20px;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #f5f5f5;
 }
 
 
-.banner-content {
+.about-section p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #555555;
   max-width: 800px;
-  margin: auto;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding: 40px;
-  border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 0 auto 20px;
 }
-
-.banner h1 {
-   font-size: 3em;
-  font-weight: bold;
-  margin: 0 0 20px;
-}
-
 </style>
-Ο ιστόχωρος αυτός δημιουργήθηκε από τον Λευτέρη Γεωργουλά και την Βικτώρια Καλιακούδα στα πλαίσια εργασίας του μαθήματος ΕΡΓΑΛΕΙΑ ΠΡΟΒΟΛΗΣ ΤΟΥΡΙΣΤΙΚΟΥ ΚΑΙ ΠΟΛΙΤΙΣΤΙΚΟΥ ΠΡΟΪΟΝΤΟΣ του ΠΜΣ Ψηφιακές Εφαρμογές και Καινοτομία του Ιονίου Πανεπιστημίου. Σκοπός του ιστοχώρου είναι η ανακάλυψη και η προβολή των 10 πιο σημαντικών γεωλογικών μνημείων της Ελλάδας. Μέσω του ιστοχώρου μας θέλουμε να φέρουμε πιο κοντά στους ανθρώπους στην γεωλογική κληρονομιά της Ελλάδας. 
-
-
