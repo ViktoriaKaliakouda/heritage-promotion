@@ -14,8 +14,8 @@
   background-position: center;
   color: white;
   text-align: center;
-  padding: 100px 20px;
-  width: 100vh; /
+  padding: 120px 20px;
+  width: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,18 +26,22 @@
   max-width: 800px;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 20px;
-  border-radius: 8px;
+  padding: 40px;
+  border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .banner h1 {
-  font-size: 48px;
+   font-size: 3em;
   font-weight: bold;
+  margin: 0 0 20px;
 }
 
 .banner p {
-  font-size: 18px;
+   font-size: 1.2em;
+  margin-bottom: 20px;
 }
+
 </style>
     
 <div class="welcome"> 			
