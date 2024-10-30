@@ -4,6 +4,7 @@ title: Ελληνικοί Γεώ-Θησαυροί
 permalink: /pois/
 
 ---
+# Ξεκινήστε την εξερεύνηση σας και ανακαλύψτε την Ελλάδα μέσα από τη δύναμη της Γης!
 <div class="pois-container">
   {% for p in site.pois %}
     <div class="poi-box">
