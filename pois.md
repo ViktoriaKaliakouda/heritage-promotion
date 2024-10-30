@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Γεωλογικά Μνημεία
+title: Ελληνικοί Γεώ-Θησαυροί
 permalink: /pois/
 
 ---
