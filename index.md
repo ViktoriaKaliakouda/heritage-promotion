@@ -1,6 +1,6 @@
----
-layout: home
 
+layout: home
+---
 <div class="banner">
   <div class="banner-content">
     <h1>Γεωλογικά Μνημεία</h1>
