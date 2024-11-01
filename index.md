@@ -1,3 +1,20 @@
+<body>
+<nav>
+    <ul>
+        <li><a href="about.html">Σχετικά με εμάς</a></li>
+        <li><a href="geological_treasures.html">Ελληνικοί Γεωθησαυροί</a></li>
+        <li><a href="map.html">Διαδραστικός Χάρτης</a></li>
+    </ul>
+</nav>
+
+<div class="banner">
+    <div class="banner-content">
+        <h1>Γεωλογικά Μνημεία</h1>
+        <p>Ανακαλύψτε τα πιο δημοφιλή γεωλογικά μνημεία της Ελλάδας!</p>
+    </div>
+</div>
+
+<!-- Ο υπόλοιπος κώδικας παραμένει ο ίδιος -->
 
 
 <div class="banner">
