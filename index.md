@@ -1,13 +1,4 @@
 
-<div class="banner">
-    <div class="banner-content">
-        <h1>Γεωλογικά Μνημεία</h1>
-        <p>Ανακαλύψτε τα πιο δημοφιλή γεωλογικά μνημεία της Ελλάδας!</p>
-    </div>
-</div>
-
-<!-- Ο υπόλοιπος κώδικας παραμένει ο ίδιος -->
-
 
 <div class="banner">
   <div class="banner-content">
