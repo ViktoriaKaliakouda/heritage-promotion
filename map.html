@@ -1,24 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="el">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Διαδραστικός Χάρτης</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 600px; /* Ύψος του χάρτη */
+            width: 100%; /* Πλάτος του χάρτη */
+        }
+    </style>
 </head>
 <body>
-    <div id="map" style="height: 600px; width: 100%;"></div>
 
-    <script>
-        // Δημιουργία χάρτη και κεντράρισμα στην Ελλάδα
-        var map = L.map('map').setView([38.246639, 21.734573], 7); // Συντεταγμένες για κεντράρισμα στην Ελλάδα
+<div id="map"></div>
 
-        // Προσθήκη βασικού χάρτη
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-    </script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    // Δημιουργία χάρτη
+    var map = L.map('map').setView([38.0, 23.0], 6); // Ρύθμιση για Ελλάδα
+
+    // Προσθήκη βασικού στρώματος χάρτη
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    // Σημεία ενδιαφέροντος
+    var points = [
+        { name: "Σημείο 1", coords: [37.9838, 23.7275] }, // Αθηνα
+        { name: "Σημείο 2", coords: [40.6401, 22.9444] }, // Θεσσαλονίκη
+        { name: "Σημείο 3", coords: [35.3285, 25.1442] }, // Κρήτη
+        // Προσθέστε περισσότερα σημεία αν θέλετε
+    ];
+
+    // Προσθήκη σημεία στο χάρτη
+    points.forEach(function(point) {
+        L.marker(point.coords).addTo(map)
+            .bindPopup(point.name);
+    });
+</script>
+
 </body>
 </html>
