@@ -1,3 +1,12 @@
+<div class="navbar">
+    <nav>
+        <ul>
+            <li><a href="about.md">Σχετικά με εμάς</a></li>
+            <li><a href="geological_treasures.md">Ελληνικοί Γεώ-Θησαυροί</a></li>
+            <li><a href="map.md">Διαδραστικός χάρτης</a></li>
+        </ul>
+    </nav>
+</div>
 
 <div class="banner">
   <div class="banner-content">
