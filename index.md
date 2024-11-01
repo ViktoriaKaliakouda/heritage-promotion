@@ -1,7 +1,3 @@
-## Μενού
-- [Σχετικά με εμάς](about.md)
-- [Ελληνικοί Γεώ-Θησαυροί](geological_treasures.md)
-- [Διαδραστικός χάρτης](map.md)
 
 <div class="banner">
   <div class="banner-content">
