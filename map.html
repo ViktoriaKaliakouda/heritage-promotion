@@ -9,5 +9,15 @@
 </head>
 <body>
     <div id="map" style="height: 600px; width: 100%;"></div>
+
+    <script>
+        // Δημιουργία χάρτη και κεντράρισμα στην Ελλάδα
+        var map = L.map('map').setView([38.246639, 21.734573], 7); // Συντεταγμένες για κεντράρισμα στην Ελλάδα
+
+        // Προσθήκη βασικού χάρτη
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+    </script>
 </body>
 </html>
