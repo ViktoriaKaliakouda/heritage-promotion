@@ -1,13 +1,3 @@
-<body>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="about.html">Σχετικά με εμάς</a></li>
-                <li><a href="geological_treasures.html">Ελληνικοί Γεωθησαυροί</a></li>
-                <li><a href="map.html">Διαδραστικός Χάρτης</a></li>
-            </ul>
-        </nav>
-    </div>
 
 <div class="banner">
   <div class="banner-content">
