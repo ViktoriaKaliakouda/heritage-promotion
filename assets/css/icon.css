@@ -1,7 +1,7 @@
 .site-title {
   display: inline-flex;
   align-items: center;
-  background-image: url("/heritage-promotion/assets/icon.png");
+  background-image: url("assets/images/icon.png");
   background-size: 20px 20px; /* Adjust size as needed */
   background-repeat: no-repeat;
   background-position: left center;
