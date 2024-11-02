@@ -4,7 +4,7 @@ title: Χάρτης
 permalink: /map/
 body_class: map-page
 ---
-<!DOCTYPE html>
+# Εξερεύνησε τα μνημεία στο χάρτη!
 <html lang="el">
 <head>
     <meta charset="UTF-8">
